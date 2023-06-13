@@ -76,8 +76,8 @@ void mesh_slicer::save_intersection_polylines(const plane_type &plane_func,
             ofs << point.x() << seperator
                 << point.y() << seperator
                 << point.z() << '\n';
-            ++i;
         }
+        ++i;
     }
 
     ofs.close();
