@@ -1,0 +1,7 @@
+create_single_source_cgal_program("test.cpp")
+if(CGAL_Qt5_FOUND)
+    target_link_libraries(test PUBLIC CGAL::CGAL_Basic_viewer)
+endif()
+if (fmt_FOUND)
+    target_link_libraries(test PUBLIC fmt::fmt)
+endif(fmt_FOUND)

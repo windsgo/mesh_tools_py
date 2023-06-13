@@ -1,0 +1,25 @@
+*.so
+src/*.so
+src/*.a
+src/gen_contour
+*.txt
+*.csv
+src/*.csv
+src/*.txt
+*.png
+src/*.png
+*.pyc
+__pycache__
+.vscode
+
+# cmake
+build
+build/**
+
+# not to ignore
+!CMakeLists.txt
+!src/CMakeLists.txt
+
+*.stl
+*.STL
+!bunny_rough_binary.STL
