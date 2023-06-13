@@ -2,9 +2,9 @@
 src/*.so
 src/*.a
 src/gen_contour
-./*.txt
-./*.csv
-./*.png
+/*.txt
+/*.csv
+/*.png
 *.pyc
 __pycache__
 .vscode
