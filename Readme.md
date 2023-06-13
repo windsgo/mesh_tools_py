@@ -9,6 +9,7 @@
 Before use `make` command, modify `Qt5_DIR` in `Makefile`.
 
 ```bash
+./install_essentials.sh
 make
 ```
 
